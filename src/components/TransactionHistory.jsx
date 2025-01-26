@@ -32,6 +32,13 @@ const TransactionHistory = () => {
     return format(parseISO(date), "MMMM dd, yyyy HH:mm:ss");
   };
 
+  const rupiah = (number) => {
+    return new Intl.NumberFormat("id-ID", {
+      style: "currency",
+      currency: "IDR",
+    }).format(number);
+  };
+
   const handleShowMore = () => {
     const off = offset + limit;
     setOffset(off);
@@ -41,6 +48,7 @@ const TransactionHistory = () => {
     getHistory();
   }, [offset]);
 
+  console.log(data);
   return (
     <>
       <div className="w-full">
@@ -60,7 +68,8 @@ const TransactionHistory = () => {
                         : "text-green-600"
                     } font-bold `}
                   >
-                    + Rp. 10.000
+                    {value.transaction_type === "PAYMENT" ? "-" : "+"}{" "}
+                    {rupiah(value.total_amount)}
                   </h1>
                   <p>{formatDate(value.created_on)} WIB</p>
                 </div>
