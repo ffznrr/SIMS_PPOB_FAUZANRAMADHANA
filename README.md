@@ -1,10 +1,5 @@
 # SIMS PPOB - Fauzan Ramadhana
 
-## Deskripsi
-Aplikasi **SIMS PPOB (Payment Point Online Bank)** ini dirancang untuk menyediakan layanan pembayaran online dengan antarmuka yang responsif dan ramah pengguna. Proyek ini dibangun menggunakan **React** dan di-bootstrapped dengan **Vite** untuk performa pengembangan yang lebih cepat.
-
----
-
 ## Cara Menjalankan Aplikasi
 
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi secara lokal di komputer Anda:
