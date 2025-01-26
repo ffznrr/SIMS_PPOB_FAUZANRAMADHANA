@@ -1,9 +1,41 @@
-# React + Vite
+# SIMS PPOB - Fauzan Ramadhana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Deskripsi
+Aplikasi **SIMS PPOB (Payment Point Online Bank)** ini dirancang untuk menyediakan layanan pembayaran online dengan antarmuka yang responsif dan ramah pengguna. Proyek ini dibangun menggunakan **React** dan di-bootstrapped dengan **Vite** untuk performa pengembangan yang lebih cepat.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# nutech-frontend
+## Cara Menjalankan Aplikasi
+
+Ikuti langkah-langkah berikut untuk menjalankan aplikasi secara lokal di komputer Anda:
+
+### 1. Clone Repository
+Salin kode dari repository GitHub ke Terminal di Vscode dengan perintah berikut:
+```bash
+git clone https://github.com/ffznrr/SIMS_PPOB_FAUZANRAMADHANA.git
+```
+
+### 2. Masuk ke Direktori Proyek
+
+```bash
+cd SIMS_PPOB_FAUZANRAMADHANA
+```
+
+### 3. Instal Dependencies
+
+```bash
+NPM install
+```
+
+### 4. Jalankan Aplikasi
+
+```bash
+NPM run dev
+```
+
+### 5. Akses Aplikasi
+
+```bash
+http://localhost:5173/
+```
+
