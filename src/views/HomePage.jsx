@@ -41,7 +41,7 @@ const HomePage = () => {
           <Profile />
           <Saldo />
         </div>
-        <div className="w-full px-5 md:px-28 flex mt-20">
+        <div className="w-full px-5 md:px-16 flex mt-20">
           {todos.message == "Sukses" &&
             todos.data.map((value, i) => (
               <ServiceComponent

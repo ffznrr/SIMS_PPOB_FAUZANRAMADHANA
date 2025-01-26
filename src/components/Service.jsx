@@ -5,7 +5,7 @@ const ServiceComponent = ({ image, name, code }) => {
   return (
     <>
       <div
-        className="w-full"
+        className="w-full mx-auto"
         onClick={() => navigate(`/payment/${code}`)}
       >
         <div className="flex justify-center">

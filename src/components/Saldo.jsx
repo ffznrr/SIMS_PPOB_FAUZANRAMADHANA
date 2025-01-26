@@ -47,7 +47,7 @@ const Saldo = () => {
         <img
           src="/BackgroundSaldo.png"
           alt="Background"
-          className="w-full h-64 md:h-full object-cover"
+          className="w-full h-48"
         />
         <div className="absolute inset-0 flex flex-col justify-center md:justify-start text-white p-5 md:p-10">
           <p className="text-sm md:text-lg font-light">Saldo Anda</p>

@@ -31,7 +31,7 @@ const Slider = () => {
   }, []);
   return (
     <>
-      <div className="w-full pl-5 md:pl-28  mt-20">
+      <div className="w-full pl-5 md:pl-28  mt-20 mb-20">
         <p className="font-bold text-2xl mb-5">Temukan Promo Menarik</p>
         <div className="snap-x snap-mandatory overflow-x-auto flex gap-5 mr-5">
           {/* Snap Items */}

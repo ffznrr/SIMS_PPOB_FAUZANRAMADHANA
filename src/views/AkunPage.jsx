@@ -37,7 +37,7 @@ const AkunPage = () => {
       <div className="w-full flex justify-center">
         <ProfilePicture profile={profile} />
       </div>
-      <div className="mx-96 mt-20">
+      <div className="mx-96 mt-20 mb-20">
         <Form profile={profile} />
       </div>
     </>
